@@ -1,0 +1,25 @@
+package ipp.aci.$$project_name$$.dominio;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
+import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
+import java.math.BigDecimal;
+import java.util.Date;
+
+/**
+ * Mapeamento da tabela $$table_name$$
+ */
+@Entity
+@Table(name = "$$table_name$$")
+public class $$capital_entity_name$$  {
+
+    $$domain_attributes$$
+
+}

@@ -1,0 +1,14 @@
+package ipp.aci.$$project_name$$.dados;
+
+import ipp.aci.$$project_name$$.dominio.$$capital_entity_name$$;
+import ipp.aci.pdsiframework.dados.IRepositorioGenericoDados;
+
+import java.util.List;
+
+/**
+ * Representa o repositório da entidade {@link $$capital_entity_name$$}.
+ */
+public interface I$$capital_entity_name$$Dados extends IRepositorioGenericoDados<$$capital_entity_name$$, Long> {
+
+}
+

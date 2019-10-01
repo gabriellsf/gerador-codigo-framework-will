@@ -1,0 +1,22 @@
+package ipp.aci.$$project_name$$.servicos;
+
+import ipp.aci.$$project_name$$.dados.I$$capital_entity_name$$Dados;
+import ipp.aci.$$project_name$$.dominio.$$capital_entity_name$$;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Servicos de manipulacao de $$entity_semantic_name$$
+ */
+@Service
+@Transactional(readOnly = true)
+public class ServicosDe$$capital_entity_name$$ {
+
+    @Autowired
+    private I$$capital_entity_name$$Dados i$$capital_entity_name$$Dados;
+
+}

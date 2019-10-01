@@ -1,0 +1,4 @@
+$$id_annotation$$
+$$cardinality_annotation$$
+$$colunm_annotation$$
+private $$type$$ $$attribute$$;

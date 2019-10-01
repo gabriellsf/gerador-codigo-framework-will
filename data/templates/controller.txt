@@ -1,0 +1,25 @@
+package ipp.aci.$$project_name$$.visao;
+
+import ipp.aci.$$project_name$$.dominio.$$capital_entity_name$$;
+import ipp.aci.$$project_name$$.servicos.ServicosDe$$capital_entity_name$$;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.Locale;
+
+/**
+ * Implementação do controlador responsável por tratar o gerenciamento de $$entity_semantic_name$$
+ */
+@Controller
+public class $$capital_entity_name$$Controller extends BaseController{
+
+    @Autowired
+    private ServicosDe$$capital_entity_name$$ servicosDe$$capital_entity_name$$;
+    
+
+}

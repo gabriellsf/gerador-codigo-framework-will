@@ -1,0 +1,24 @@
+package ipp.aci.$$project_name$$.dados.oracle;
+
+import ipp.aci.$$project_name$$.dados.I$$capital_entity_name$$Dados;
+import ipp.aci.$$project_name$$.dominio.$$capital_entity_name$$;
+import org.springframework.stereotype.Repository;
+
+import javax.persistence.TypedQuery;
+import java.util.List;
+
+
+/**
+ * Implementacao do repositorio de entidades {@link $$capital_entity_name$$} para o banco de dados Oracle.
+ */
+@Repository
+public class Oracle$$capital_entity_name$$Dados extends OracleRepositorioGenericoDados<$$capital_entity_name$$, Long> implements I$$capital_entity_name$$Dados {
+
+    /**
+     * Instanciacao
+     */
+    public Oracle$$capital_entity_name$$Dados() {
+        super($$capital_entity_name$$.class);
+    }
+
+}
